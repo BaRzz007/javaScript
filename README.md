@@ -1,7 +1,7 @@
-From **zero** to **hero** in JavaScript
+From *zero* to *hero* in **JavaScript**
 ----------------------------------------
 
-[Hello world!](helloWorld.js)
+- [Hello world!](helloWorld.js) - My first js code *16/01/23*
 
 
 ## Resources
