@@ -15,7 +15,7 @@ The value `"My name is Ezekiel"` is a primitive string literal.
 
 - [Use of quotes and back-ticks](quotesAndBacktick.js) - Illustrates the behavioral differences in the use of double-quote, single-quote, and back-ticks *16/01/23*
 
-##Functions
+## Functions
 
 ## How we organize in JS
 
