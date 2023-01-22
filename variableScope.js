@@ -1,4 +1,5 @@
 #!/usr/bin/node
+// use of var and let
 
 var adult = true;
 
@@ -12,4 +13,4 @@ console.log(myName);
 // Ezekiel
 
 console.log(age);
-// Error!
+// This causes an error because of the scope of the age variable

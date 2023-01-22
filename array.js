@@ -1,4 +1,4 @@
-#!/usr/bin/nodejs
+#!/usr/bin/node
 
 var names = [ "Ezekiel", "Samuel", "Comfort", "Victoria" ];
 
