@@ -1,8 +1,8 @@
 #!/usr/bin/node
-import { create as newBlogPost } from "blogpost.js";
+import { create } from "./blogpost.mjs";
 // from "classic_modules.js" import BlogPost;
 
-var forAgainstLet = newBlogPost(
+var forAgainstLet = create(
     "For and against let",
     "Kyle Simpson",
     "October 27, 2014",

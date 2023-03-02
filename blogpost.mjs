@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-import { create as createPub } from "publication.js";
+import { create as createPub } from "./publication.mjs";
 
 function printDetails(pub,URL) {
     pub.print();

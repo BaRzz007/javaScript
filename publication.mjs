@@ -2,9 +2,9 @@
 
 function printDetails(title,author,pubDate) {
     console.log(`
-        Title: ${ title }
-        By: ${ author }
-        ${ pubDate }
+    Title: ${ title }
+    By: ${ author }
+    ${ pubDate }
     `);
 }
 
