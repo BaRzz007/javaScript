@@ -44,6 +44,16 @@ function scheduleMeeting(startTime, durationMinutes) {
 	}
 	return true;
 }
-var outcome = scheduleMeeting("08:00", 500);
-console.log(outcome);
+var outcomes = [
+	scheduleMeeting("7:00", 15),
+	scheduleMeeting("07:15", 30),
+	scheduleMeeting("7:30", 30),
+	scheduleMeeting("11:30", 60),
+	scheduleMeeting("17:00", 45),
+	scheduleMeeting("17:30", 30),
+	scheduleMeeting("18:00", 15)
+];
+for (outcome of outcomes){
+	console.log(outcome);
+}
 // console.log(`End time is: ${ endHour }:${ endMinute }`); learn print formatting
