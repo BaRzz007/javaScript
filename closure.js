@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+"use strict"
 // Practising closure
 function range(start, end) {
 	var list = [];

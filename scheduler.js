@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+"use strict"
 // shedules a meeting within the work day
 const dayStart = "07:30";
 const dayEnd = "17:45";
@@ -12,10 +13,10 @@ function scheduleMeeting(startTime, durationMinutes) {
 		return publicApi;
 	}
 
-	dayStartObj = time(...dayStart.split(":"));
-	dayEndObj = time(...dayEnd.split(":"));
-	startTimeObj = time(...startTime.split(":"));
-	durationTimeObj = time(Math.floor(durationMinutes / 60), durationMinutes % 60);
+	let dayStartObj = time(...dayStart.split(":"));
+	let dayEndObj = time(...dayEnd.split(":"));
+	let startTimeObj = time(...startTime.split(":"));
+	let durationTimeObj = time(Math.floor(durationMinutes / 60), durationMinutes % 60);
 
 	if (startTimeObj.hour < dayStartObj.hour){
 		return false;
@@ -53,7 +54,7 @@ var outcomes = [
 	scheduleMeeting("17:30", 30),
 	scheduleMeeting("18:00", 15)
 ];
-for (outcome of outcomes){
+for (let outcome of outcomes){
 	console.log(outcome);
 }
 // console.log(`End time is: ${ endHour }:${ endMinute }`); learn print formatting
