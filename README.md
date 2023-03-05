@@ -216,5 +216,6 @@ First, there is no wrapping function to define a module. The wrapping context is
 Secondly, you don't interact with a module's "API" explicitly, but rather use the `export` keyword to add a variable or method to its public API definition. Anything defined but not exported is hidden.
 Third, you don't "instantiate" an ES module, you just `import` it to use it's single instance.
 
+[Lexical Scoping](./lexical_scoping.md)
 ## Resources
 [You-don't-know-js-yet](https://github.com/getify/You-Dont-Know-JS) - getify
