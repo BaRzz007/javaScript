@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict"
 // Practising closure
-function range(start, end) {
+export function range(start, end) {
 	var list = [];
 	if (end === undefined) {
 		return function(end) {
@@ -18,8 +18,8 @@ function range(start, end) {
 	}
 	return list;
 }
-
 console.log(range(3, 8));
+console.log(range(3, 0));
 
 var start3 = range(3);
 console.log(start3(5));
